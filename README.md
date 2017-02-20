@@ -1,2 +1,2 @@
-# SifwtyDating
+# SwiftyDating
 ESIMED (school) iOS Project
