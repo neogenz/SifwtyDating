@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CB595EA1E5B420B001631FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB595E91E5B420B001631FC /* AppDelegate.swift */; };
+		9CB595EC1E5B420B001631FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB595EB1E5B420B001631FC /* ViewController.swift */; };
+		9CB595EF1E5B420B001631FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB595ED1E5B420B001631FC /* Main.storyboard */; };
+		9CB595F11E5B420B001631FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB595F01E5B420B001631FC /* Assets.xcassets */; };
+		9CB595F41E5B420B001631FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB595F21E5B420B001631FC /* LaunchScreen.storyboard */; };
+		9CB595FF1E5B420C001631FC /* SwiftyDatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB595FE1E5B420C001631FC /* SwiftyDatingTests.swift */; };
+		9CB5960A1E5B420C001631FC /* SwiftyDatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB596091E5B420C001631FC /* SwiftyDatingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CB595FB1E5B420C001631FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CB595DE1E5B420B001631FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB595E51E5B420B001631FC;
+			remoteInfo = SwiftyDating;
+		};
+		9CB596061E5B420C001631FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CB595DE1E5B420B001631FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB595E51E5B420B001631FC;
+			remoteInfo = SwiftyDating;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CB595E61E5B420B001631FC /* SwiftyDating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyDating.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB595E91E5B420B001631FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CB595EB1E5B420B001631FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SwiftyDating/ViewController.swift; sourceTree = "<group>"; };
+		9CB595EE1E5B420B001631FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CB595F01E5B420B001631FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CB595F31E5B420B001631FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CB595F51E5B420B001631FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB595FA1E5B420C001631FC /* SwiftyDatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyDatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB595FE1E5B420C001631FC /* SwiftyDatingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyDatingTests.swift; sourceTree = "<group>"; };
+		9CB596001E5B420C001631FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB596051E5B420C001631FC /* SwiftyDatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyDatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB596091E5B420C001631FC /* SwiftyDatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyDatingUITests.swift; sourceTree = "<group>"; };
+		9CB5960B1E5B420C001631FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CB595E31E5B420B001631FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB595F71E5B420C001631FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB596021E5B420C001631FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CB595DD1E5B420B001631FC = {
+			isa = PBXGroup;
+			children = (
+				9CB5961A1E5B422C001631FC /* Helpers */,
+				9CB596191E5B4227001631FC /* Models */,
+				9CB596181E5B4221001631FC /* Controllers */,
+				9CB596171E5B421A001631FC /* Views */,
+				9CB595E81E5B420B001631FC /* SwiftyDating */,
+				9CB595FD1E5B420C001631FC /* SwiftyDatingTests */,
+				9CB596081E5B420C001631FC /* SwiftyDatingUITests */,
+				9CB595E71E5B420B001631FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CB595E71E5B420B001631FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB595E61E5B420B001631FC /* SwiftyDating.app */,
+				9CB595FA1E5B420C001631FC /* SwiftyDatingTests.xctest */,
+				9CB596051E5B420C001631FC /* SwiftyDatingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB595E81E5B420B001631FC /* SwiftyDating */ = {
+			isa = PBXGroup;
+			children = (
+				9CB595E91E5B420B001631FC /* AppDelegate.swift */,
+				9CB595F01E5B420B001631FC /* Assets.xcassets */,
+				9CB595F21E5B420B001631FC /* LaunchScreen.storyboard */,
+				9CB595F51E5B420B001631FC /* Info.plist */,
+			);
+			path = SwiftyDating;
+			sourceTree = "<group>";
+		};
+		9CB595FD1E5B420C001631FC /* SwiftyDatingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CB595FE1E5B420C001631FC /* SwiftyDatingTests.swift */,
+				9CB596001E5B420C001631FC /* Info.plist */,
+			);
+			path = SwiftyDatingTests;
+			sourceTree = "<group>";
+		};
+		9CB596081E5B420C001631FC /* SwiftyDatingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CB596091E5B420C001631FC /* SwiftyDatingUITests.swift */,
+				9CB5960B1E5B420C001631FC /* Info.plist */,
+			);
+			path = SwiftyDatingUITests;
+			sourceTree = "<group>";
+		};
+		9CB596171E5B421A001631FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9CB595ED1E5B420B001631FC /* Main.storyboard */,
+			);
+			name = Views;
+			path = SwiftyDating;
+			sourceTree = "<group>";
+		};
+		9CB596181E5B4221001631FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CB595EB1E5B420B001631FC /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9CB596191E5B4227001631FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9CB5961A1E5B422C001631FC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CB595E51E5B420B001631FC /* SwiftyDating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB5960E1E5B420C001631FC /* Build configuration list for PBXNativeTarget "SwiftyDating" */;
+			buildPhases = (
+				9CB595E21E5B420B001631FC /* Sources */,
+				9CB595E31E5B420B001631FC /* Frameworks */,
+				9CB595E41E5B420B001631FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyDating;
+			productName = SwiftyDating;
+			productReference = 9CB595E61E5B420B001631FC /* SwiftyDating.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CB595F91E5B420C001631FC /* SwiftyDatingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB596111E5B420C001631FC /* Build configuration list for PBXNativeTarget "SwiftyDatingTests" */;
+			buildPhases = (
+				9CB595F61E5B420C001631FC /* Sources */,
+				9CB595F71E5B420C001631FC /* Frameworks */,
+				9CB595F81E5B420C001631FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB595FC1E5B420C001631FC /* PBXTargetDependency */,
+			);
+			name = SwiftyDatingTests;
+			productName = SwiftyDatingTests;
+			productReference = 9CB595FA1E5B420C001631FC /* SwiftyDatingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CB596041E5B420C001631FC /* SwiftyDatingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB596141E5B420C001631FC /* Build configuration list for PBXNativeTarget "SwiftyDatingUITests" */;
+			buildPhases = (
+				9CB596011E5B420C001631FC /* Sources */,
+				9CB596021E5B420C001631FC /* Frameworks */,
+				9CB596031E5B420C001631FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB596071E5B420C001631FC /* PBXTargetDependency */,
+			);
+			name = SwiftyDatingUITests;
+			productName = SwiftyDatingUITests;
+			productReference = 9CB596051E5B420C001631FC /* SwiftyDatingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CB595DE1E5B420B001631FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Maxime De Sogus";
+				TargetAttributes = {
+					9CB595E51E5B420B001631FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ37X7C82G;
+						ProvisioningStyle = Automatic;
+					};
+					9CB595F91E5B420C001631FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ37X7C82G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CB595E51E5B420B001631FC;
+					};
+					9CB596041E5B420C001631FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ37X7C82G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CB595E51E5B420B001631FC;
+					};
+				};
+			};
+			buildConfigurationList = 9CB595E11E5B420B001631FC /* Build configuration list for PBXProject "SwiftyDating" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CB595DD1E5B420B001631FC;
+			productRefGroup = 9CB595E71E5B420B001631FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CB595E51E5B420B001631FC /* SwiftyDating */,
+				9CB595F91E5B420C001631FC /* SwiftyDatingTests */,
+				9CB596041E5B420C001631FC /* SwiftyDatingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CB595E41E5B420B001631FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB595F41E5B420B001631FC /* LaunchScreen.storyboard in Resources */,
+				9CB595F11E5B420B001631FC /* Assets.xcassets in Resources */,
+				9CB595EF1E5B420B001631FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB595F81E5B420C001631FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB596031E5B420C001631FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CB595E21E5B420B001631FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB595EC1E5B420B001631FC /* ViewController.swift in Sources */,
+				9CB595EA1E5B420B001631FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB595F61E5B420C001631FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB595FF1E5B420C001631FC /* SwiftyDatingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB596011E5B420C001631FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB5960A1E5B420C001631FC /* SwiftyDatingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CB595FC1E5B420C001631FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CB595E51E5B420B001631FC /* SwiftyDating */;
+			targetProxy = 9CB595FB1E5B420C001631FC /* PBXContainerItemProxy */;
+		};
+		9CB596071E5B420C001631FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CB595E51E5B420B001631FC /* SwiftyDating */;
+			targetProxy = 9CB596061E5B420C001631FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CB595ED1E5B420B001631FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB595EE1E5B420B001631FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CB595F21E5B420B001631FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB595F31E5B420B001631FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CB5960C1E5B420C001631FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CB5960D1E5B420C001631FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CB5960F1E5B420C001631FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ37X7C82G;
+				INFOPLIST_FILE = SwiftyDating/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdesogus.SwiftyDating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9CB596101E5B420C001631FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ37X7C82G;
+				INFOPLIST_FILE = SwiftyDating/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdesogus.SwiftyDating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9CB596121E5B420C001631FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AJ37X7C82G;
+				INFOPLIST_FILE = SwiftyDatingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdesogus.SwiftyDatingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyDating.app/SwiftyDating";
+			};
+			name = Debug;
+		};
+		9CB596131E5B420C001631FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AJ37X7C82G;
+				INFOPLIST_FILE = SwiftyDatingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdesogus.SwiftyDatingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyDating.app/SwiftyDating";
+			};
+			name = Release;
+		};
+		9CB596151E5B420C001631FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AJ37X7C82G;
+				INFOPLIST_FILE = SwiftyDatingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdesogus.SwiftyDatingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftyDating;
+			};
+			name = Debug;
+		};
+		9CB596161E5B420C001631FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AJ37X7C82G;
+				INFOPLIST_FILE = SwiftyDatingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdesogus.SwiftyDatingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftyDating;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CB595E11E5B420B001631FC /* Build configuration list for PBXProject "SwiftyDating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB5960C1E5B420C001631FC /* Debug */,
+				9CB5960D1E5B420C001631FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB5960E1E5B420C001631FC /* Build configuration list for PBXNativeTarget "SwiftyDating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB5960F1E5B420C001631FC /* Debug */,
+				9CB596101E5B420C001631FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CB596111E5B420C001631FC /* Build configuration list for PBXNativeTarget "SwiftyDatingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB596121E5B420C001631FC /* Debug */,
+				9CB596131E5B420C001631FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CB596141E5B420C001631FC /* Build configuration list for PBXNativeTarget "SwiftyDatingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB596151E5B420C001631FC /* Debug */,
+				9CB596161E5B420C001631FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CB595DE1E5B420B001631FC /* Project object */;
+}
