@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AuthenticationService.signup(by : String, username : String, password : String, delegate : AuthenticationServiceDelegate) -&gt; ():AuthenticationService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;\(Config.baseURL)/signup&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

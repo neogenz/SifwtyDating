@@ -9,44 +9,73 @@
 import UIKit
 import QuartzCore
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, AuthenticationServiceDelegate {
+    
     @IBOutlet weak var signupButton: UIButton!
     @IBOutlet weak var signinButton: UIButton!
     @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    
+    var viewControllerUtils:ViewControllerUtils = ViewControllerUtils();
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        applyBottomBorderOnly(on: emailTextField)
-        applyBottomBorderOnly(on: usernameTextField);
-        applyBottomBorderOnly(on: passwordTextField);
+        emailTextField.borderStyle = UITextBorderStyle.none
+        passwordTextField.borderStyle = UITextBorderStyle.none
+        ViewControllerUtils().applyBottomBorderOnly(on: emailTextField)
+        //applyBottomBorderOnly(on: usernameTextField);
+        ViewControllerUtils().applyBottomBorderOnly(on: passwordTextField);
         signinButton.layer.cornerRadius = 20
-        //signinButton.layer.borderWidth = 2
-        //signinButton.layer.borderColor = UIColor(red: 234/255, green: 26/255, blue: 98/255, alpha: 1.0).cgColor
-        
         signupButton.layer.cornerRadius = 20
         signupButton.layer.borderWidth = 1
         signupButton.layer.borderColor = UIColor.white.cgColor
+        //signinButton.addTarget(self, action: #selector(ViewController.login(sender:)) , for: .touchUpInside);
     }
-
+    
+    @IBAction func signinTouchUpCallback(_ sender: Any) {
+        login();
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    
-    func applyBottomBorderOnly(on uiControl: UIControl){
-        var border:CALayer = CALayer()
-        var borderWidth:CGFloat = 1
-        border.borderColor = UIColor.white.cgColor;
-        border.frame = CGRect(x: 0, y: uiControl.frame.size.height - borderWidth, width: uiControl.frame.size.width, height: uiControl.frame.size.height);
-        border.borderWidth = borderWidth;
-        uiControl.layer.addSublayer(border)
-        uiControl.layer.masksToBounds = true;
+    func login() {
+        signinButton.isEnabled = false;
+        signupButton.isEnabled = false;
+        viewControllerUtils.showActivityIndicator(uiView: self.view)
+        
+        if let email = emailTextField?.text, let password = passwordTextField?.text {
+            AuthenticationService.sharedInstance.getChallenge(by: email, password: password, delegate: self)
+        }
     }
-
-
+    
+    func didChallenged(challenge: String) {
+        if let email = emailTextField?.text{
+            AuthenticationService.sharedInstance.verifyChallenge(by: challenge, email:  email, delegate: self);
+        }
+    }
+    
+    func challengeDidVerified(token: String) {
+        viewControllerUtils.hideActivityIndicator(uiView: self.view)
+        signinButton.isEnabled = true;
+        signupButton.isEnabled = true;
+        performSegue(withIdentifier: "toMeetList", sender: self)
+    }
+    
+    func didFail(UXMessage:String) {
+        viewControllerUtils.hideActivityIndicator(uiView: self.view)
+        viewControllerUtils.showDialog(uiView: self, message: UXMessage, title: "Erreur", buttonText: "Ressayer")
+        signinButton.isEnabled = true;
+        signupButton.isEnabled = true;
+    }
+    
+    func didSignedUp(token: String) {
+        viewControllerUtils.hideActivityIndicator(uiView: self.view)
+        signinButton.isEnabled = true;
+        signupButton.isEnabled = true;
+        performSegue(withIdentifier: "toMeetList", sender: self)
+    }
 }
 

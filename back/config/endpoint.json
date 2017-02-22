@@ -1,0 +1,10 @@
+{
+  "development": {
+    "portNumber": "3000",
+    "domain": "localhost"
+  },
+  "production": {
+    "portNumber": "3001",
+    "domain": "carmanager"
+  }
+}

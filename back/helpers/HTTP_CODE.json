@@ -1,0 +1,17 @@
+{
+  "NOT_FOUND": {
+    "code": 404,
+    "status": "Not found",
+    "message": "Resource not found."
+  },
+  "INTERNAL_ERROR_SERVER": {
+    "code": 500,
+    "status": "Internal Server Error",
+    "message": "Internal server error."
+  },
+  "FORBIDDEN": {
+    "code": 403,
+    "status": "Forbidden",
+    "message": "You are not authorized."
+  }
+}

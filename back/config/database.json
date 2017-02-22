@@ -1,0 +1,16 @@
+{
+  "development": {
+    "sqlite": {
+      "name": "swiftydating.db",
+      "host": "localhost",
+      "protocol": "mongodb"
+    }
+  },
+  "production": {
+    "sqlite": {
+      "name": "CarManager",
+      "host": "carmanager.com",
+      "protocol": "mongodb"
+    }
+  }
+}

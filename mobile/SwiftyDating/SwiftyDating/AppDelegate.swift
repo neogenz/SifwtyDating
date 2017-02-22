@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().barTintColor = UIColor(red: 233/255, green: 30/255, blue: 99/255, alpha: 1)
+        UINavigationBar.appearance().tintColor = UIColor.white;
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white];
+        
+        MeetingService.sharedInstance.create(this: PeopleMeet(firstname: "Scarlett", lastname: "Johansson", birthdate: Date(timeIntervalSinceNow: -DateHelpers.sharedInstance.getTimeIntervalBy(year: 35)), sexe: Gender.WOMAN.rawValue, note:1));
+        MeetingService.sharedInstance.create(this: PeopleMeet(firstname: "Vanessa", lastname: "Paradis", birthdate: Date(timeIntervalSinceNow: -DateHelpers.sharedInstance.getTimeIntervalBy(year: 38)), sexe: Gender.WOMAN.rawValue, note:1));
+        MeetingService.sharedInstance.create(this: PeopleMeet(firstname: "Sophia", lastname: "Bush", birthdate: Date(timeIntervalSinceNow: -DateHelpers.sharedInstance.getTimeIntervalBy(year: 32)), sexe: Gender.WOMAN.rawValue, note:1));
         return true
     }
 

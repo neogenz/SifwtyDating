@@ -1,0 +1,17 @@
+PODS:
+  - CryptoSwift (0.6.7)
+  - SQLite.swift (0.11.2):
+    - SQLite.swift/standard (= 0.11.2)
+  - SQLite.swift/standard (0.11.2)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - SQLite.swift (~> 0.11.2)
+
+SPEC CHECKSUMS:
+  CryptoSwift: 685ae257941e5447474348a2b545583e1a16b573
+  SQLite.swift: 670c3e9e0a806bbfd56a3de5d530768dc0e6fe7c
+
+PODFILE CHECKSUM: 13723789e9ed9c194586bab9834cba44017a7788
+
+COCOAPODS: 1.2.0
